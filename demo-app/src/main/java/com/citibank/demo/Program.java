@@ -8,7 +8,7 @@ public class Program {
 		//This is not the recommended way to test code
 		//Should use Junit
 		Calculator c= new Calculator();
-		int result =c.Add(2, 3);
+		int result =c.Add(1, 4);
 		if (result==5)
 		{
 			System.out.println("Calculator Add Method passed");
