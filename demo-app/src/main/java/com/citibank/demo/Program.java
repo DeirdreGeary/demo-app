@@ -9,12 +9,11 @@ public class Program {
 		//Should use Junit
 		Calculator c= new Calculator();
 		int result =c.Add(1, 4);
+		
 		if (result==5)
 		{
-			System.out.println("Calculator Add Method passed");
-			
+			System.out.println("Calculator Add Method passed");			
 		}		
-
-}
+	}
 }
 

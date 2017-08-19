@@ -19,8 +19,7 @@ public class CalculatorTest {
 		int result= calculator.Add(2, 3);
 		//Assert
 		assertEquals(5, result);
-		
-		
+			
 	}
 
 }
