@@ -10,9 +10,9 @@ import com.citibank.demo.Calculator;
 
 
 public class CalculatorTest {
-
+//MethodName_StateUnderTest_ExpectedBehavior
 	@Test
-	public void test() {
+	public void Test_Add_Result() {
 		//Arrange
 		Calculator calculator= new Calculator();
 		//Act
