@@ -13,7 +13,17 @@ public class Task {
 		return duration;
 	}
 	public void setDuration(int duration) {
+		
+		if (duration < 0) {
+		throw new IllegalArgumentException("Duration can't be < 0 ");
+		}
+		else if (duration < 5) {
+			throw new IllegalArgumentException("Duration can't be > 5 ");
+			}
+		else
+		{
 		this.duration = duration;
+		}
 	}
 	
 
